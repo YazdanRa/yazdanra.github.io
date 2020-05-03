@@ -318,7 +318,7 @@ figure {
             #hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #hero .flexslider .slider-text > .slider-text-inner s
-.colorlib-lead {
+.lead {
           font-size: 20px;
           color: #fff; }
         #hero .flexslider .slider-text > .slider-text-inner p {
@@ -375,8 +375,8 @@ body.offcanvas {
 .experience,
 .skills,
 .education,
-.colorlib-blog,
-.colorlib-work,
+.blog,
+.work,
 .about,
 .services,
 .contact {
@@ -389,8 +389,8 @@ body.offcanvas {
     .experience,
     .skills,
     .education,
-    .colorlib-blog,
-    .colorlib-work,
+    .blog,
+    .work,
     .about,
     .services,
     .contact {
@@ -849,13 +849,13 @@ body.offcanvas {
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase; }
-  .feature.colorlib-feature-sm .text {
+  .feature.feature-sm .text {
     margin-top: 30px; }
-  .feature.colorlib-feature-sm .icon i {
+  .feature.feature-sm .icon i {
     color: #2c98f0;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
-      .feature.colorlib-feature-sm .icon i {
+      .feature.feature-sm .icon i {
         font-size: 28px; } }
 
 .blog-entry {
@@ -1079,11 +1079,11 @@ body.offcanvas {
     margin-bottom: 2em;
     display: block; }
 
-.colorlib-social {
+.social {
   padding: 0;
   margin: 0;
   text-align: center; }
-  .colorlib-social li {
+  .social li {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1091,7 +1091,7 @@ body.offcanvas {
     display: inline-block;
     zoom: 1;
     *display: inline; }
-    .colorlib-social li a {
+    .social li a {
       font-size: 22px;
       color: #000;
       padding: 10px;
@@ -1104,11 +1104,11 @@ body.offcanvas {
       -ms-border-radius: 7px;
       border-radius: 7px; }
       @media screen and (max-width: 768px) {
-        .colorlib-social li a {
+        .social li a {
           padding: 10px 8px; } }
-      .colorlib-social li a:hover {
+      .social li a:hover {
         color: #2c98f0; }
-      .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
+      .social li a:hover, .social li a:active, .social li a:focus {
         outline: none;
         text-decoration: none;
         color: #2c98f0; }
@@ -1120,7 +1120,7 @@ body.offcanvas {
     #map {
       height: 200px; } }
 
-.colorlib-bg-color {
+.bg-color {
   background: #fafafa;
   position: relative; }
 
