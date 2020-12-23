@@ -1,5 +1,6 @@
-![Yazdan Ranjbar Picture](yazdan.jpg)
+![Yazdan Ranjbar Picture](../media/yazdan.jpg)
 # Yazdan Ranjbar
+
 
 
 ## About me
@@ -107,6 +108,4 @@ Member of [National Organization for Development of Exceptional Talents](https:/
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=django-itelegram)](https://github.com/yazdanra/django-itelegram) 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=querateam&repo=django-qsessions)](https://github.com/querateam/django-qsessions)
-
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=pytse-client)](https://github.com/yazdanra/pytse-client)
-
