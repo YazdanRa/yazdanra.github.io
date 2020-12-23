@@ -25,11 +25,6 @@ jobs:
       with:
         node-version: '10'
 
-    - name: Cache node modules
-      uses: actions/cache@v2
-      with:
-        path: node_modules/
-
     - name: npm install, build
       run: |
         npm install gitbook-cli -g
@@ -41,3 +36,8 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: public
+
+#     - name: Cache node modules
+#       uses: actions/cache@v2
+#       with:
+#         path: node_modules/
