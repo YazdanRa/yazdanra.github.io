@@ -32,7 +32,6 @@ jobs:
       run: |
         gitbook ls-remote
         gitbook fetch 3.2.3
-        gitbook instal
         gitbook build . public
 
     - name: Upload build files
