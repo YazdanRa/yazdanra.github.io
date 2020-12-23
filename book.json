@@ -1,0 +1,37 @@
+{
+    "gitbook": ">=3.2.0",
+    "variables": {
+    },
+    "links": {
+        "sidebar": {
+            "Contact me": "mailto://Yazdan_ra@icloud.com"
+        }
+    },
+    "pdf": {
+        "fontSize": 16
+    },
+    "plugins": [
+        "heading-anchors@1.0.3",
+        "ga@1.0.1",
+        "richquotes@0.0.9",
+        "github@2.0.0",
+        "sidebar-ad",
+        "codeblock-label",
+        "sectionx-ex",
+        "collapsible-menu"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "#"
+        },
+        "richquotes": {
+            "default": false
+        },
+        "github": {
+            "url": "https://github.com/yazdanra"
+        },
+        "sectionx": {
+            "tag": "b"
+        }
+    }
+}
