@@ -25,10 +25,13 @@ jobs:
       with:
         node-version: '10'
 
-    - name: npm install, build
+    - name: Install Gitbook CLI
+      run: npm install -g gitbook-cli
+
+    - name: Build Gitbook
       run: |
-        npm install gitbook-cli -g
-        gitbook fetch 3.2.3 
+        gitbook ls-remote
+        gitbook fetch 3.2.3
         gitbook instal
         gitbook build . public
 
