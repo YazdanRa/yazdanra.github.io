@@ -1,8 +1,11 @@
-![Yazdan Ranjbar Picture]()
+![Yazdan Ranjbar Picture](yazdan.jpg)
 # Yazdan Ranjbar
 
 
 ## About me
+
+---
+
 Future B.Sc. Computer Science student with +5 years of Algorithm programming experience includes 
 Object-Oriented Programming(OOP), Algorithm Design and Optimization, Graph Theory, Number Theory, 
 Problem Solving, etc using C/C++, and Python and also +1 years of Web Development experience using 
@@ -29,6 +32,8 @@ type of protocols such as OpenVPN, Outline, MTProto, L2TP, etc.
 
 
 ## Last Experiences
+
+---
 
 ### Software Engineer at Index1
 
@@ -71,6 +76,8 @@ TODO :D
 
 ## Education / Academic Career
 
+---
+
 ### B.Sc. Computer Science at University of Regina
 
 2021 - PRESENT
@@ -90,13 +97,16 @@ Member of [National Organization for Development of Exceptional Talents](https:/
 
 
 ## Open Source Contributions
+
+---
+
 ![Yazdan's github stats](https://github-readme-stats.vercel.app/api?username=yazdanra&count_private=true&show_icons=true)
 
 **Some of Repositories:**
 
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=django-itelegram)](https://github.com/yazdanra/django-itelegram) 
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=querateam&repo=django-qsessions)](https://github.com/querateam/django-qsessions)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=pytse-client)](https://github.com/yazdanra/pytse-client)
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=querateam&repo=django-qsessions)](https://github.com/querateam/django-qsessions)
