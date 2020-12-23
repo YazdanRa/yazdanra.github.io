@@ -14,17 +14,30 @@ on:
 jobs:
   build:
     name: build website
+    container: node:10
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
-    - name: npm install, build and test
+        node-version: '10'
+
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: node_modules/
+
+    - name: npm install, build
       run: |
         npm install gitbook-cli -g
         gitbook fetch latest
         gitbook instal
         gitbook build . public
+
+    - name: Upload build files
+      uses: actions/upload-artifact@v2
+      with:
+        path: public
