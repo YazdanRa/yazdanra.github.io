@@ -1,0 +1,15 @@
+{
+    "root": "./book",
+    "title": "Yazdan Ranjbar",
+    "description": "The book of my life",
+    "author": "Yazdan Ranjbar",
+    "language": "en",
+    "plugins": [
+        "github@2.0.0"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/yazdanra"
+        }
+    }
+}
