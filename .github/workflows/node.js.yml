@@ -28,7 +28,7 @@ jobs:
     - name: npm install, build
       run: |
         npm install gitbook-cli -g
-        gitbook fetch latest
+        gitbook fetch 3.2.3 
         gitbook instal
         gitbook build . public
 
