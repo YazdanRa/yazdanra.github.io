@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Yazdan's World",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "gitbook-plugin-codeblock-label": "*",
     "gitbook-plugin-collapsible-menu": "*",
     "gitbook-plugin-ga": "^2.0.0",
