@@ -11,7 +11,6 @@
     "gitbook-plugin-heading-anchors": "^1.0.3",
     "gitbook-plugin-richquotes": "0.0.9",
     "gitbook-plugin-sectionx-ex": "*",
-    "gitbook-plugin-sidebar-ad": "*",
     "honkit": "^3.4.0"
   },
   "scripts": {},
