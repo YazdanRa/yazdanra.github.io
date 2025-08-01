@@ -16,81 +16,53 @@
             color: #2a3d4d;
             border-left: 5px solid #49a1ff;
             font-size: 1em;
-            box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.04);
+            box-shadow: 0 2px 8px 0 rgba(34,60,80,0.04);
             position: relative;
         }
-
         .info-panel .info-label {
             font-weight: bold;
             margin-right: .6em;
             letter-spacing: 0.02em;
         }
-
-        .info-panel.tip {
-            background: #e8fff2;
-            border-left-color: #20c997;
-            color: #125e38;
-        }
-
-        .info-panel.warning {
-            background: #fff8e1;
-            border-left-color: #ffc107;
-            color: #856404;
-        }
-
-        .info-panel.important {
-            background: #fff1f0;
-            border-left-color: #fa5252;
-            color: #8c2f2f;
-        }
-
-        .info-panel.info {
-            background: #f1f6fb;
-            border-left-color: #3387d6;
-            color: #28517a;
-        }
+        .info-panel.tip    { background: #e8fff2; border-left-color: #20c997; color: #125e38; }
+        .info-panel.warning{ background: #fff8e1; border-left-color: #ffc107; color: #856404; }
+        .info-panel.important{ background: #fff1f0; border-left-color: #fa5252; color: #8c2f2f; }
+        .info-panel.info   { background: #f1f6fb; border-left-color: #3387d6; color: #28517a; }
 
         [data-theme="dark"] .info-panel {
             background: #232a33;
             color: #e2eaf3;
             border-left-color: #3387d6;
-            box-shadow: 0 2px 16px 0 rgba(10, 24, 40, 0.16);
+            box-shadow: 0 2px 16px 0 rgba(10,24,40,0.16);
         }
-
         [data-theme="dark"] .info-panel .info-label {
             color: #a6d5fa;
         }
-
         [data-theme="dark"] .info-panel.note {
             background: #232a33;
             border-left-color: #3387d6;
             color: #e2eaf3;
         }
-
         [data-theme="dark"] .info-panel.tip {
             background: #15352a;
             border-left-color: #33e6b6;
             color: #b4f8e9;
         }
-
         [data-theme="dark"] .info-panel.warning {
             background: #3b3422;
             border-left-color: #ffd464;
             color: #ffeab8;
         }
-
         [data-theme="dark"] .info-panel.important {
             background: #382222;
             border-left-color: #ff7a7a;
             color: #ffd7d7;
         }
-
         [data-theme="dark"] .info-panel.info {
             background: #222d39;
             border-left-color: #49a1ff;
             color: #b8d6fa;
         }
-
         :root {
             --bg: #f8f9fa;
             --fg: #212529;
@@ -123,14 +95,14 @@
         }
 
         .site-bg {
-            position: fixed;
-            z-index: -2;
-            inset: 0;
-            background: var(--bg);
-            transition: background .3s;
-            width: 100vw;
-            height: 100vh;
-            pointer-events: none;
+          position: fixed;
+          z-index: -2;
+          inset: 0;
+          background: var(--bg);
+          transition: background .3s;
+          width: 100vw;
+          height: 100vh;
+          pointer-events: none;
         }
 
         body {
@@ -184,12 +156,6 @@
             height: auto;
             word-break: break-word;
             overflow-wrap: break-word;
-        }
-
-        .markdown-main a,
-        .markdown-main a:visited {
-            color: inherit;
-            text-decoration: underline;
         }
 
         .markdown-main > *:first-child {
@@ -255,27 +221,26 @@
     </style>
 </head>
 <style>
-    @media (max-width: 700px) {
-        body {
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .center-card {
-            width: auto;
-            max-width: 900px;
-            margin-left: 2.5em;
-            margin-right: 2.5em;
-            padding-left: 0.8em;
-            padding-right: 0.8em;
-        }
-    }
+@media (max-width: 700px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .center-card {
+    width: auto;
+    max-width: 900px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
+}
 </style>
 </head>
 <body>
 <div class="site-bg"></div>
 <canvas class="bg-code"></canvas>
-<!--<a class="md-link" href="README.md" target="_blank">View Markdown</a>-->
+<a class="md-link" href="TEST.md" target="_blank">View Markdown</a>
 <button class="toggle-mode" title="Toggle dark/light mode" id="toggle-mode">🌓</button>
 <div class="center-card">
     <div id="markdown-rendered" class="markdown-main">Loading...</div>
@@ -610,7 +575,7 @@
     }
 
     // Markdown fetch and render
-    fetch('README.md')
+    fetch('TEST.md')
         .then(r => r.text())
         .then(md => {
             renderMarkdown(md);
