@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <title>Yazdan Ranjbar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Experienced software developer with 7+ years in the SDLC, specializing in APIs, integrations, and DevOps.">
+    <meta name="description"
+          content="Experienced software developer with 7+ years in the SDLC, specializing in APIs, integrations, and DevOps.">
     <meta name="keywords" content="Yazdan Ranjbar, software developer, APIs, integrations, DevOps, portfolio">
     <link rel="canonical" href="https://yazdanra.com/">
     <meta property="og:site_name" content="Yazdan Ranjbar">
     <meta property="og:title" content="Yazdan Ranjbar">
-    <meta property="og:description" content="Experienced software developer with 7+ years in the SDLC, specializing in APIs, integrations, and DevOps.">
+    <meta property="og:description"
+          content="Experienced software developer with 7+ years in the SDLC, specializing in APIs, integrations, and DevOps.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yazdanra.com/">
     <meta property="og:image" content="assets/image01.jpeg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Yazdan Ranjbar">
-    <meta name="twitter:description" content="Experienced software developer with 7+ years in the SDLC, specializing in APIs, integrations, and DevOps.">
+    <meta name="twitter:description"
+          content="Experienced software developer with 7+ years in the SDLC, specializing in APIs, integrations, and DevOps.">
     <meta name="twitter:image" content="assets/image01.jpeg">
     <!-- highlight.js CSS (light & dark, toggle with JS) -->
     <link id="hljs-theme" rel="stylesheet"
@@ -126,7 +129,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            background: transparent;
+            background: var(--bg);
             color: var(--fg);
             width: 100vw;
             min-height: 100vh;
@@ -137,7 +140,7 @@
 
         .site-bg {
             position: fixed;
-            z-index: -2;
+            z-index: 0;
             inset: 0;
             background: var(--bg);
             transition: background .3s;
@@ -154,7 +157,7 @@
 
         .bg-code {
             position: fixed;
-            z-index: -1;
+            z-index: 1;
             inset: 0;
             pointer-events: none;
             opacity: 0.8;
@@ -168,7 +171,8 @@
         }
 
         .center-card {
-            z-index: 2;
+            position: relative;
+            z-index: 10;
             background: var(--card-bg);
             box-shadow: var(--shadow);
             border-radius: 18px;
@@ -267,22 +271,22 @@
         }
     </style>
     <style>
-    @media (max-width: 700px) {
-        body {
-            padding-left: 0;
-            padding-right: 0;
-        }
+        @media (max-width: 700px) {
+            body {
+                padding-left: 0;
+                padding-right: 0;
+            }
 
-        .center-card {
-            width: auto;
-            max-width: 900px;
-            margin-left: 2.5em;
-            margin-right: 2.5em;
-            padding-left: 0.8em;
-            padding-right: 0.8em;
-            min-height: 0;
+            .center-card {
+                width: auto;
+                max-width: 900px;
+                margin-left: 2.5em;
+                margin-right: 2.5em;
+                padding-left: 0.8em;
+                padding-right: 0.8em;
+                min-height: 0;
+            }
         }
-    }
     </style>
 </head>
 <body>
